@@ -12,3 +12,10 @@ I would have taken care of it earlier, but I have a mandatory visit to a psychia
 There will be something about tolerance.
 I'm very afraid of this.
 You know how it is in a psychiatrist's office, you go in one door, you go out the other, and then you don't know who you are.
+
+For now it accepts only postgresql, so hard 'offset' ale 'limit' are implemented.
+For other databases it should be changed.
+
+And why I don't share this plugin by Marketplace
+
+Because all not aware users should contact with their internet providers aware him how deep is himself it's not awareness.
