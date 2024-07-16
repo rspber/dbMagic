@@ -18,4 +18,4 @@ For other databases it should be changed.
 
 And why I don't share this plugin by Marketplace
 
-Because all not aware users should contact with their internet providers aware him how deep is himself it's not awareness.
+Because all not aware users should contact with their internet providers aware him how deep is himself it's not NOT awareness.
