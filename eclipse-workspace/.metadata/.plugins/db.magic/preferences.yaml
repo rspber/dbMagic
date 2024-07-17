@@ -1,0 +1,5 @@
+DBSql:
+  ConnectTimeout: "5"
+  ExecSqlRowLimit: "100"
+  NoConfirmConnectDB: true
+  TableRowLimit: "300"

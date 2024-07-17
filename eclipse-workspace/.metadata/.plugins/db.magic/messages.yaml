@@ -1,0 +1,198 @@
+
+DBSettings:
+ NoKey: "There is no setting associated with the key"
+
+DB:
+ ConErr: "Connection to database problem."
+ NoDB:  "The error occurred by getting the connection."
+
+DBWizard:
+ Tit: "DataBase Settings"
+
+DBWizardPage1:
+ Tit:    "DataBase Name and JDBC Driver."
+ DBNam:  "DataBase Name"
+ JDCDri: "JDBC Driver"
+ AddFil: "Add &File"
+ AddFol: "Add Fol&der"
+ RmDri:  "&Remove"
+ RegDri: "&Collaborating drivers"
+
+DBWizardPage2:
+ Tit:    "DataBase Connection Settings."
+ JDCNam: "&JDBC Driver Name"
+ DBCon:  "Connection &String"
+ Usr:    "&User"
+ Pwd:    "&Password"
+ TesCon: "&Test connection"
+
+JDBCDriverDialog:
+ Tit:    "Select JDBC Driver"
+
+ConnectDB:
+ TimOut: "Connection timeout occurred."
+
+DBsView:
+ Root: "DataBase's"
+
+TestConnection:
+ TimOut: "The connection time-out."
+ Succ:   "The connection succeeded."
+ ConErr: "It failed in the connection to the data base."
+
+DescrAddDialog:
+ Tit: "Add decription"
+ Cat: Category
+ Tab: Table
+ Col: Column
+
+DescrPrefer:
+ Add: "&Add"
+ Edi: "&Edit"
+ Del: "&Delete"
+ ConfRm: " remove it ?"
+ Nam: "name:"
+ Des: "description:"
+
+CollapseAll:
+ Tit: "&Collapse All"
+ Msg: "Collapse All"
+
+DBAddAction:
+ Tit: "&Add"
+ Msg: Add
+
+DBConfConnAction:
+ NotCon: " is not connected. Do you connect it ?"
+ WilNot: "It will not confirm it in the future."
+
+DBConnectAction:
+ Tit: "&Connect"
+ Msg: Connect
+
+DBCopyAction:
+ Tit: "&Duplicate"
+ Msg: Duplicate
+ DupExt: "'s Copy"
+ NewTit: "New DataBase Configuration"
+ NewMsg: "New DataBase Name"
+ IsEmp: " is empty"
+ Exi: " already exists."
+
+DBDiscoAction:
+ Tit: "&Disconnect"
+ Msg:  Disconnect
+
+DBEditAction:
+ Tit: "&Edit"
+ Msg: "Edit"
+
+DBRemoveAction:
+ Tit: "&Remove"
+ Msg: Remove
+ Conf: "I also think it's time to remove this database:"
+
+RefreshAction:
+ Tit: "Re&fresh"
+ Msg: Refresh
+
+SqHAddAction:
+ Tit: "&Add"
+ Msg: Add
+
+SqHDeleteAction:
+ Tit: "&Delete"
+ Msg: Delete
+ Conf: "Delete "
+
+CRUDPrefer:
+ Add: "&Add"
+ Edi: "&Edit"
+ Del: "&Delete"
+ ConfRm: " will finally be removed"
+
+DictImpleInputDialog:
+ Tit: "Dictionary Setting"
+ Nam: "Dictionary &Name:"
+ Typ: "&DictType:"
+ NrSep: "Nr &Separator:"
+ Key: "&KeyType:"
+ Def: "&Definition:"
+
+DictImplePrefer:
+ Tit: "&Dictionary Definitions"
+ Nam: "Name"
+ Typ: "DictType"
+ NrSep: "Sep"
+ Key: "KeyType"
+ Def: "Definition"
+
+DictioInputDialog:
+ Tit: "Field Setting"
+ Nam: "&Field Name:"
+ Mod: "&Mode:"
+ Dic: "&Dictionary:"
+ Ran: "&Range:"
+ Arg: "&Argumens:"
+
+DictioPrefer:
+ Tit: "&Dictionary to Field Assignments"
+ Nam: "Field Name"
+ Mod: "Mode"
+ Dic: "Dictionary"
+ Ran: "Range"
+ Arg: "Arguments"
+
+ForeignInputDialog:
+ Tit: "Field Setting"
+ Nam: "&Field Name:"
+ Typ: "&Reference Type"
+ RefFld: "&Field Name Reference:"
+ RefTab: "&Table Name Reference:"
+
+ForeignPrefer:
+ Tit: "Field &References"
+ Nam: "Field Name"
+ Typ: "Reference Type"
+ RefFld: "Referenced Field Name"
+ RefTab: "Referenced Table Name"
+
+SQLPrefer:
+ Tit: "SQL Preferences:"
+ NConDB: "No Confirm Connect &DB:"
+ ConTim: "&Timeout of connecting:"
+ TabLim: "Table Content &Rows Limit:"
+ ExeLim: "&Execute SQL Rows Limit:"
+ "0Lim": " (Empty for Unlimited)."
+ Sec: " seconds."
+ NCComi: "No &Confirm Commit:"
+ NoDef: "No &Defaults:"
+
+VarioInputDialog:
+ Tit: "Variables"
+ Nam: "&Var Name:"
+ Typ: "&Var Type"
+ Val: "&Value:"
+ Arg: "&Arguments:"
+
+VarioPrefer:
+ Tit: "&Variable"
+ Nam: "Name"
+ Typ: "Type"
+ Val: "Value"
+ Arg: "Arguments"
+
+ComboSelectDB:
+ NoDB: "Select DataBase please."
+
+Outline:
+ Mne: "mnems:"
+ Nam: "names:"
+ Hex: "hex:"
+
+ExecSQLAndOpen:
+ NoCon: "It is not connected with the data base. Please do connected processing by the DataBase Tree."
+
+SQLSourceViewer:
+ NoSQL: "SQL please."
+ DicSel: "Select for dictionary"

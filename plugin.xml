@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+
+<plugin>
+
+   <extension point="org.eclipse.ui.views">
+	  <category name="%mgc.view" id="db.magic"></category>
+	  <view
+		 name="%dbs.view"
+		 icon="icons/db.gif"
+		 category="db.magic"
+		 class="db.magic.ui.views.dbs.DBsView"
+		 id="db.magic.ui.views.DBsView"/>
+	  <view
+		 name="%sqh.view"
+		 icon="icons/script.gif"
+		 category="db.magic"
+		 class="db.magic.ui.views.sqh.SqHView"
+		 id="db.magic.ui.views.SqHView"/>
+	  <view
+		 name="%sql.exec.view"
+		 icon="icons/execute.gif"
+		 allowMultiple="true"
+		 category="db.magic"
+		 class="db.magic.ui.views.exec.SQLExecView"
+		 id="db.magic.ui.views.SQLExecView"/>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+	  <editor
+		 name="%mgc.result.view"
+		 icon="icons/view.gif"
+		 class="db.magic.ui.views.resu.ResuView"
+		 id="db.magic.ui.views.ResuView"/>
+   </extension>
+
+   <extension point="org.eclipse.ui.preferencePages">
+	  <page
+		 name="%mgc.view"
+		 class="db.magic.ui.pref.MgcPluginPrefPage"
+		 id="db.magic.preference.PrefPage"/>
+	  <page
+		 name="%mgc.dictio"
+		 category="db.magic.preference.PrefPage"
+		 class="db.magic.ui.pref.FDictioPrefPage"
+		 id="db.magic.preference.DictioPrefPage"/>
+	  <page
+		 name="%mgc.foreigns"
+		 category="db.magic.preference.PrefPage"
+		 class="db.magic.ui.pref.ForeignsPrefPage"
+		 id="db.magic.preference.ForeignsPrefPage"/>
+	  <page
+		 name="%mgc.dict.def"
+		 category="db.magic.preference.PrefPage"
+		 class="db.magic.ui.pref.DictImplePrefPage"
+		 id="db.magic.preference.DictImplePrefPage"/>
+	  <page
+		 name="%sql.execution"
+		 category="db.magic.preference.PrefPage"
+		 class="db.magic.ui.pref.SQLPrefPage"
+		 id="db.magic.preference.SQLPrefPage"/>
+	  <page
+		 name="%mgc.varies"
+		 category="db.magic.preference.PrefPage"
+		 class="db.magic.ui.pref.VariesPrefPage"
+		 id="db.magic.preference.VariesPrefPage"/>
+	  <page
+		 name="%mgc.descriptions"
+		 category="db.magic.preference.PrefPage"
+		 class="db.magic.ui.pref.descr.DescrPrefPage"
+		 id="db.magic.preference.DescrPrefPage"/>
+   </extension>
+
+</plugin>
