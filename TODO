@@ -3,4 +3,4 @@ many many interesting things
 - for sql editor, auto created additional dialog (with indicated in sql where values, by {@...} notation)
 - in outline panel, switching between field mnemonics ana field names with descriptions,
 - show tables and fields descriptions during table browsing,
-- add colors to sql editor,
+- add colors for sql editor,
