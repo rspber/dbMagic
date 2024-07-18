@@ -1,6 +1,6 @@
 many many interesting things
 
-- for sql select editor, auto created additional dialog (with indicated in sql where values, by {@...} notation)
+- for sql editor, auto created additional dialog (with indicated in sql where values, by {@...} notation)
 - in outline panel, switching between field mnemonics ana field names with descriptions,
 - show tables and fields descriptions during table browsing,
-- add colors to sql select editor,
+- add colors to sql editor,
